@@ -1,10 +1,5 @@
 def oxford_comma(arr)
-  if arr.size > 2
-    arr[-1] = "and #{arr[-1]}"
-    arr.join(", ")
-  else
-    arr.join
-  end
+
   size = arr.size
   case size
   when size > 2
