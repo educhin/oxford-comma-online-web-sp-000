@@ -10,4 +10,5 @@ def oxford_comma(arr)
     arr.join
   else
     arr.join
+  end
 end
