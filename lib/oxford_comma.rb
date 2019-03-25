@@ -4,6 +4,5 @@ def oxford_comma(arr)
     arr.joined(", ")
   else
     arr.joined
-
-
+  end
 end
