@@ -1,7 +1,9 @@
 def oxford_comma(arr)
   if arr.size > 1
     arr.last = "and #{arr.last}"
-    joined = arr.join
+    arr.joined
+  else
+    arr.joined(", ")
 
 
 end
